@@ -1,0 +1,120 @@
+.appointment-content {
+    margin-top: 175px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.appointment-content .form {
+    width: 50%;
+}
+.date-info{
+    width: 40%;
+}
+.animal-container img {
+    width: 248px;
+    height: 200px;
+}
+.appointment-content .input-box{
+    height: 50px;
+    width: 100%;
+    margin: 16px 0;
+    margin-top: 40px;
+    position: relative;
+}
+
+.appointment-content .input-box input{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    background: #e4e4e4;
+    padding-left: 16px;
+    border: 2px solid transparent;
+    font-size: 16px;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+#animal{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    width: 80%;
+    line-height: 100px;
+}
+#animal:focus {
+    border: 2px solid red;
+}
+#animal option {
+    vertical-align: middle;
+}
+.appointment-content .input-box input:focus ,
+.appointment-content .input-box input:valid{
+    border-color: red;
+    background-color: white;
+    
+}
+.appointment-content .input-box label{
+    font-size: 15px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    position: absolute;
+}
+
+.appointment-content .input-box input:focus ~ label,
+.appointment-content .input-box input:valid ~ label{
+    top: 0;
+    left: 12px;
+    display: 14px;
+    background: white;
+}
+
+.button-area{
+    position: relative;
+}
+
+.button-area button{
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    margin-left: -50px;
+    border-radius: 2rem;
+    border-color: transparent;
+    cursor: pointer;
+    background-color: #005e5c;
+    color: white;
+    font-weight: bold;
+}
+.button-area button:hover{
+    background-color: #1DA741;
+    
+}
+
+.footer {
+    margin-top: 297px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C3C79;
+    width: 100%;
+    
+}
+
+.footer-text{
+    padding-top: 0px;
+    color: white;
+}
+.social-icons {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.social-icons img {
+    cursor: pointer;
+}

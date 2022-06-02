@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="appointment.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <title>Appointment</title>
+</head>
+<body>
+    <header class="header">
+        <img src="../assets/images/logo.png" alt="logo">
+        <nav class="navbar">
+            <a href="../homepage/index.html" class="nav-element">Anasayfa</a>
+            <a href="../homepage/animalspage.html" class="nav-element">Hayvanlar</a>
+            <a href="../homepage/appointment.html" class="nav-element">Randevu</a>
+            <a href="../homepage/vetpage.html" class="nav-element">Veteriner</a>
+            <a href="../homepage/contactUsPage.html" class="nav-element">Bize Ulaş</a>
+        </nav>
+    </header>
+    <div class="appointment-content">
+        <div class="form">
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>İsminizi Girin</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Tel No</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Email Adresinizi Girin</label>
+                </div>
+                
+            </form>
+        </div>
+        <div class="date-info">
+            <form action="">
+                <div class="combo-box">
+                    <select name="animal" id="animal">
+                        <option value="sarman"><p class="combo-animal-name"> Sarman</p></option>
+                        <option value="tekir">Tekir</option>
+                        <option value="melez">Melez</option>
+                        <option value="hayat">Hayat</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <input type="text" id="datepicker" name="booking"> <br>
+                </div>
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>T.C Keçiören Belediyesi @ 2021</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/keciorenbelediyesi06/"><img src="../assets/icons/icons8-instagram.svg" alt="" class="insta-icon"></a>
+            <a href="https://www.facebook.com/keciorenbeltr"> <img src="../assets/icons/icons8-facebook.svg" alt="facebook" class="face-icon"></a>
+            <a href="https://www.youtube.com/user/keciorenbld"> <img src="../assets/icons/icons8-youtube.svg" alt="" class="youtube-icon"></a>
+            <a href="https://twitter.com/keciorenbeltr"><img src="../assets/icons/icons8-twitter.svg" alt="" class="twitter-icon">  
+            </a>
+        </div>
+    </footer>
+    
+</body>
+<script src="appointment.js"></script>
+</html>

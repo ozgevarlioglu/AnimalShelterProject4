@@ -1,0 +1,43 @@
+.photoarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.photoarea .photo{
+    padding: 20px;
+    width: 30%;
+    border-radius: 2rem;
+}
+.info-container{
+    position: relative;
+    padding: 20px;
+    box-shadow: 0px 2px 8px 0px gray;
+    border-radius: 2rem;
+    width: 100%;
+    height: 30%;
+}
+.info-container .story{
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: large;
+    font-size: medium;
+}
+.button {
+    text-decoration: none;
+}
+.info-container .button{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    border-radius: 2rem;
+    border-color: transparent;
+    cursor: pointer;
+    background-color: #005e5c;
+    color: white;
+}
+.info-container .button:hover{
+    background-color: #1DA741;
+    
+}
